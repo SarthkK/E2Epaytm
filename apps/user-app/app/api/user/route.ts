@@ -6,7 +6,7 @@ export async function GET(){
     const res = await prisma.user.create({
         data: {
             name: "Sarthk",
-            email: "sarthkkharwal@gmail.com"
+            email: "sarthk2@gmail.com"
         }, 
         select: {
             name: true,
